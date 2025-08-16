@@ -78,7 +78,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className="text-blue-600 hover:text-blue-200 transition-colors duration-200 px-2 py-1 rounded-md text-sm lg:text-base"
+                className="text-blue-600 hover:text-blue-400 transition-colors duration-200 px-2 py-1 rounded-md text-sm lg:text-base"
                 onClick={closeMenu}
               >
                 {link.name}
@@ -118,7 +118,7 @@ const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className="text-white hover:text-blue-200 hover:bg-blue-800 transition-colors duration-200 px-4 py-2 rounded-md"
+                className="text-white hover:text-blue-400 hover:bg-blue-800 transition-colors duration-200 px-4 py-2 rounded-md"
                 onClick={closeMenu}
               >
                 {link.name}

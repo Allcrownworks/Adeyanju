@@ -97,15 +97,9 @@ const Inspiration: React.FC = () => {
 
   return (
     <div className={`container mx-auto px-4 py-8 transition-all duration-300 ${isAnimating ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
-         <button 
-        onClick={() => navigate(-1)}
-        className="mb-6 flex items-center text-blue-500 hover:text-blue-700 transition-colors duration-300"
-      >
-        <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-        </svg>
-        Back to Careers
-      </button>
+      <div className="mb-8">
+        
+      </div>
       <h1 className="text-3xl font-bold text-center mb-8">Tech Career Paths</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {careers.map((career, index) => (

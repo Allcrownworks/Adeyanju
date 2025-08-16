@@ -1,18 +1,10 @@
-import { Link } from 'react-router-dom';
-import logo from "./logo.png";
 
 const Sensation = () => {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
       {/* Logo Link to Home */}
       <div className="mb-8">
-        <Link to="/" className="inline-block">
-          <img 
-            src={logo}
-            alt="Home" 
-            className="h-12 w-auto hover:opacity-80 transition-opacity"
-          />
-        </Link>
+        
       </div>
 
       <header className="text-center mb-8">

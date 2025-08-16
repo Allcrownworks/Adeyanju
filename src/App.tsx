@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home/Home';
 import Signup from './Page/Signup';
 import Hero from './Page/Hero';
-import { Test } from './Page/Test';
+// import { Test } from './Page/test';
 import { Newevent } from './Page/Newevent';
 // import Login from './Component/Login';
 // import EmailVerification from './Pages/emailverification';
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} /> 
         <Route path="/hero" element={<Hero />} />
-        <Route path="/test" element={<Test />} />
+        {/* <Route path="/test" element={<Test />} /> */}
         <Route path="/newevent" element={<Newevent />} />
 
 

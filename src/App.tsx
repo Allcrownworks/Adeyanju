@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home/Home';
 import Signup from './Page/Signup';
 import Hero from './Page/Hero';
-import { Test } from './Page/test';
+import { Test } from './Page/Test';
 import { Newevent } from './Page/Newevent';
 // import Login from './Component/Login';
 // import EmailVerification from './Pages/emailverification';

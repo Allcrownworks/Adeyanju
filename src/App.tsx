@@ -6,11 +6,11 @@ import { Newevent } from './Page/Newevent';
 // import Test from './Page/test';
 import Inspiration from './Page/Inspiration';
 import CareerEducationPage from './Page/CareerEducationPage';
+import Sensation from './Page/Sensation';
 // import Login from './Component/Login';
 // import EmailVerification from './Pages/emailverification';
 
 
-// import Sensation from './Pages/Sensation';
 // import { HolySpirit } from './Pages/HolySpirit';
 
 
@@ -26,6 +26,7 @@ function App() {
         <Route path="/newevent" element={<Newevent />} />
         <Route path="/inspiration" element={<Inspiration />} />
         <Route path="/careers/:careerId" element={<CareerEducationPage />} />
+         <Route path="/sensation" element={<Sensation />} />
 
 
         {/* <Route path="/emailverification" element={<EmailVerification />} />
@@ -33,7 +34,7 @@ function App() {
         
          
            {/* <Route path="/holyspirit" element={<HolySpirit />} />
-        <Route path="/sensation" element={<Sensation />} />
+       
         <Route path="/newevent" element={<NewEvent />} />
          */}
         </Routes>
